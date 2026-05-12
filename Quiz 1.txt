@@ -1,0 +1,87 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//Quiz Question 2
+//	int number;
+
+//	cout<<"Enter any Number = ";
+//	cin>>number;
+
+	/*if (number >= 10 && number <= 20){
+
+	    cout<<"Input not accepted";
+
+	}else {
+
+	    cout<<"Input is accepted ";
+	}*/
+
+
+	/* if (number <= 9 || number >= 21){
+
+	     cout<<"Input is accepted";
+
+	 }else {
+
+	     cout<<"Input not accepted ";
+	 }*/
+
+//Quiz question 1
+
+/*	float carton = 3.78;
+	float price_of1L = 0.38;
+
+	float profit_of1C = 0.27;
+
+	int input;
+	//a
+	cout<<"Prompts the user to enter the total amount of milk produced in the morning.";
+	cin>>input;
+
+	//b Outputs the number of milk cartons needed to hold milk. (Round your answer to the nearest integer.)
+
+        int required_carton = input/carton;
+        cout<<"Total Required Cartons are = "<<required_carton<<endl;
+
+    //c. Outputs the cost of producing milk.
+    
+    float total_price    = input * price_of1L;
+    
+    cout<<"Total Cost of Producing milk (by Liters) "<<total_price<<endl;
+    
+    
+    //d. Outputs the profit for producing milk.
+    
+            float total_profit = required_carton * profit_of1C;
+            cout<<"Total Profit (by Cartons) "<<total_profit<<endl;
+                
+    */
+    
+    
+    //For LOOP
+    
+    //for(initilization)
+    // for(initialization // start ; test/condition //end ; update / increment - decerement)    {statement}; // or block in { }
+
+    /*int i;
+    for (i = 1; i<= 10 ; i++ ){
+        
+        cout<<i<<endl;
+        
+        //cout<<"Iteration = "<<i<<endl;
+    } */
+    
+    int i;
+    for(i = 0; i <= 100  ; i++){
+            if(i % 2 == 0){
+            cout<<" Even Number = "<<i<<endl;
+          }
+    }
+    
+    
+    
+    
+    
+	return 0;
+}
